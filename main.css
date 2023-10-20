@@ -1,0 +1,87 @@
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.5;
+  }
+  .main-content {
+    display: flex;
+    flex-direction: row;
+    width: 1440px;
+    height: 592px;
+    justify-content: center;
+    align-items: center;
+    gap: 250px;
+    background-color: #FFCD9E;
+    
+  }
+  .photo {
+    width: 390px;
+  }
+  
+  
+  
+  
+  .footer-section {
+    
+    display: flex;
+    flex-direction: row;
+    width: 1440px;
+    height: 298px; 
+    background-color: #282828;
+    color: white;
+  }
+  .left-footer-section {
+    margin-left: 200px;
+    margin-top: 70px;
+    
+  }
+  .right-footer-section {
+    margin-left: 700px;
+    margin-top: 70px;
+  }
+  
+  .left-section-list {
+    list-style-type: none;
+    line-height: 2;
+  }
+  ul li {
+    margin-bottom: 14px; 
+  }
+  
+  .right-section-list {
+    list-style-type: none;
+    text-align: end; 
+  }
+  
+  .register-button {
+    background-color: #282828;
+    color: white;
+    height: 45px;
+    font-weight: 800;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-left: 10px;
+    border-style: none;
+    cursor: pointer;
+   
+  }
+  .e-mail-input {
+  height: 38px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: black;
+  padding-right: 80px;
+  padding-left: 10px;
+  border-radius: 7px;
+  
+  }
+  
+  .para-two {
+    margin: 30px 0;
+    font-weight: 600;
+  }
+  .para-three {
+    margin-top: 15px;
+    margin-left: 20px;
+    color: white;
+    font-size: 12px;
+  }
